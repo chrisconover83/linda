@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #23252C;
+  font-family: Inter, sans-serif;
+  color: white;
+  padding-top: 2em;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  background-color: #1A1B21;
+  max-width: 400px;
+}
+
+.hero {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+}
+
+.info-section {
+  margin-top: 0;
+  background-color: #1A1B21;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 1.5em;
+  margin-top: 1em;
+}
+
+h1 {
+  font-size: 2.2rem;
+}
+
+p {
+  font-size: .65rem;
+  color: #F3BF99;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+.btn{
+  width: 80%;
+  border: 1px solid #D1D5DB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  border-radius: 7px;
+  padding: 9px 13px 9px 11px;
+  color: #374151;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.qr-code{
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 1em;
+}
+
+.footer{
+  padding: .8em;
+  background-color: #161619;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  cursor: pointer;
+}
